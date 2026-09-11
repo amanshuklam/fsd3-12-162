@@ -6,5 +6,5 @@ button.on("click",()=>{
 });
  button.emit("click");//register
 
-// event emitter ka kam hai kisi event ko generate karna
+// event emitter ka kam hai kisi event ko generate krna
 // aur hamara kam hai use register karna
