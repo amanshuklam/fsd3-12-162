@@ -5,5 +5,5 @@ const server=http.createServer((req,res)=>{
     res.end("<h1>Hello Client</h1>");
 });
 server.listen(444,()=>{
-    console.log("Server is running....");
+    console.log("Server is running.....");
 })
