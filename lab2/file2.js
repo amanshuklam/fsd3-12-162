@@ -21,7 +21,7 @@ const readData=async(filename)=>{
     }catch(e){
         console.log(e.message);
     }finally{
-        console.log(" read data finished");
+        console.log("  read data finished");
     }
 };
 const deleteFile=async(filename)=>{
