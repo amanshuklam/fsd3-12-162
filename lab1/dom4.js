@@ -5,4 +5,4 @@ form.on("submit",(uname,password)=>{
     console.log(`user name: ${uname}`);
     console.log(`user password: ${password}`);
 });
- form.emit("submit","Ankit@gmail.com","dsfiuohu");
+ form.emit("submit","Ankit@gmail.com ","dsfiuohu");
