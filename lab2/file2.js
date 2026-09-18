@@ -28,7 +28,7 @@ const deleteFile=async(filename)=>{
     try{
         await unlink(filename);
     }catch(error){
-        console.log("File not found");
+        console.log("File not found ");
     }
 };
 // If a function uses await keyword then the function must be async
