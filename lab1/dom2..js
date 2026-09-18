@@ -5,7 +5,7 @@ button.on("click",()=>{
 });
 
 button.on("click",()=>{
-    console.log("Task 2");
+    console.log("Task 2 ");
 });
 
 button.emit("click");
