@@ -5,6 +5,16 @@ let users = [
 ]
 
 let nextId = 3;
+const getAllUsers = () => {
+    return users;
+}
+
+const getUserById = (pid) => {
+    return users.find((user) => user.id === pid);
+    return found;
+}
+
+
 
 export const getUsers = () => users;
 export const addUser =(user)=>{
@@ -13,3 +23,12 @@ export const addUser =(user)=>{
     return user;
 }
 
+const updateUser = (pid, updateData) => {
+    const index = users.findIndex((user) => user.id === pid);
+
+    if (index == -1) {
+        return false;
+    }
+    
+    users.splice(index, 1);
+}
